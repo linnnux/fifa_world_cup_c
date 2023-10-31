@@ -1,6 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// fonction pour calculer le nombre de points
+int calculer_nb_points(int win, int draw)
+{
+
+}
+
+// fonction pour calculer la différence de buts
+int calculer_diff_buts(int goalsFor, int goalsAgainst)
+{
+
+}
+// Affiche un texte en utilisant uniquement les trois premières lettres
+void afficher_nom_trois_lettres(char str[])
+{
+
+}
+
+
 
 // Fonction pour charger les données à partir d'un fichier
 char load_data(const char *file_name, int *num_lines) 
@@ -25,22 +43,7 @@ void display_matrix(int tab[][] , int num_lines, int num_fields)
 
 }
 
-// fonction pour calculer le nombre de points
-int calculer_nb_points(int win, int draw)
-{
 
-}
-
-// fonction pour calculer la différence de buts
-int calculer_diff_buts(int goalsFor, int goalsAgainst)
-{
-
-}
-// Affiche un texte en utilisant uniquement les trois premières lettres
-void afficher_nom_trois_lettres(char str[])
-{
-
-}
 
 int main() 
 {
