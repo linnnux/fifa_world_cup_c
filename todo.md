@@ -15,17 +15,12 @@
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
    - Exemple de sortie : Liste des lignes du fichier après récupération des données contenus dans le fichier d'entré.
   
-2. Fonction `supprimer_entete(fichier: str) -> list`
-   - Supprime la première ligne (en-tête) du fichier txt.
-   - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
-   - Exemple de sortie : Liste des lignes du fichier après suppression de l'en-tête.
-
-3. Fonction `afficher_nom_trois_lettres(str) -> list`
+2. Fonction `afficher_nom_trois_lettres(str) -> list`
    - Affiche lun texte en utilisant uniquement les trois premières lettres.
    - Exemple d'entrée : Nom du fichier (.. Espagne, France).
    - Exemple de sortie : mot abrégé (ESP, FRA).
 
-4. Fonction `enregistrer_fichier("donnees, fichier.ext") -> fichier.ext`
+3. Fonction `enregistrer_fichier("donnees, fichier.ext") -> fichier.ext`
    - Enregistre les données dans un fichier.
    - Exemple d'entrée : données triées (.. France, Espagne, Argentine).
    - Exemple de sortie : FIFA_1998.txt à jour.
