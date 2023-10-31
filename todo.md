@@ -20,7 +20,7 @@
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
    - Exemple de sortie : Liste des lignes du fichier après suppression de l'en-tête.
 
-3. Fonction `afficher_nom_trois_lettres(str) -> str`
+3. Fonction `afficher_nom_trois_lettres(str) -> list`
    - Affiche lun texte en utilisant uniquement les trois premières lettres.
    - Exemple d'entrée : Nom du fichier (.. Espagne, France).
    - Exemple de sortie : mot abrégé (ESP, FRA).
@@ -32,16 +32,16 @@
 
 **Niveau 2 - Calculs Statistiques**
 
-1. Fonction `melanger_lignes(donnee) -> list`
+1. Fonction `melanger_lignes(data) -> list`
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
    - Exemple de sortie : Liste des lignes triées au hasard.
 
-2. Fonction `calculer_points(fichier: str) -> dict`
+2. Fonction `calculer_points(data) -> list`
    - Calcule le nombre de points pour chaque équipe en fonction des victoires et des matchs nuls.
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
    - Exemple de sortie : Dictionnaire des équipes et de leurs points.
 
-3. Fonction `calculer_difference_buts(fichier: str) -> dict`
+3. Fonction `calculer_difference_buts(data) -> list`
    - Calcule la différence de buts pour chaque équipe.
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
    - Exemple de sortie : Dictionnaire des équipes et de leur différence de buts.
@@ -53,12 +53,12 @@
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt"), nom de la colonne (ex. "Position").
    - Exemple de sortie : Liste des lignes du fichier après suppression de la colonne.
 
-2. Fonction `trier_par_nom_equipe("donnees") -> list`
+2. Fonction `trier_par_nom_equipe(data) -> list`
    - Trier la liste des équipes par nom.
    - Exemple d'entrée : Nom du fichier (.. France, Espagne, Argentine).
    - Exemple de sortie : la liste des équipes triée par nom abrégé (ARG, ESP, FRA).
 
-3. Fonction `trier_equipes_par_position(donnees) -> list`
+3. Fonction `trier_equipes_par_position(data) -> list`
    - Trie les équipes par position.
    - Exemple d'entrée : Nom du fichier (ex. "FIFA-1998.txt").
    - Exemple de sortie : Liste des équipes triées par position.
