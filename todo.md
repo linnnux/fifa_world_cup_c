@@ -16,7 +16,7 @@
    - Exemple de sortie : Liste des lignes du fichier après récupération des données contenus dans le fichier d'entré.
   
 2. Fonction `afficher_nom_trois_lettres(str) -> list`
-   - Affiche lun texte en utilisant uniquement les trois premières lettres.
+   - Affiche un texte en utilisant uniquement les trois premières lettres.
    - Exemple d'entrée : Nom du fichier (.. Espagne, France).
    - Exemple de sortie : mot abrégé (ESP, FRA).
 
